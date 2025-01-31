@@ -1,0 +1,175 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('./image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(220, 224, 228);
+}
+#container
+{
+    padding: 0px;
+    margin: 25px; 
+    padding: 25px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+#header
+{
+    height: 50px;
+    background-color: rgba(7, 12, 10, 0.623);
+    font-size: 45px;
+    font-weight: bolder;
+}
+#nav
+{
+    height: 50px;
+    background: rgba(119, 104, 133, 0.438);
+    align-content: center;
+    
+}
+#nav a
+{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid transparent;
+
+}
+#nav li
+{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    list-style: none;
+    align-content: center;
+
+}
+#nav ul
+{
+    padding: 0px;
+    height: 50px;
+}
+ul li:hover
+{
+    background: rgba(58, 173, 35, 0.555);
+    border: 2px solid white;
+}
+.active
+{
+    background: rgba(58, 173, 35, 0.555);
+    border: 2px solid white;
+}
+#main
+{
+   
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+
+}
+#main p
+{
+    font-size: 1.2rem;
+}
+#main h1
+{
+    font-size: 2rem;
+    color: violet;
+
+}
+#sidebar
+{
+    padding: 20px;
+    float: right;
+    width: 30%;
+    margin-top: 100px;
+    background: linear-gradient(pink,rgb(34, 34, 116),rgb(173, 110, 110));
+}
+#clear
+{
+    height: 0px;
+    clear: both;
+}
+#footer
+{
+    height: 50px;
+    background: rgba(70, 131, 180, 0.219);
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+#post1 
+{
+    padding: 25px;
+    border: solid ,2px,rgb(129, 97, 37);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+#post1 h3{
+    background:linear-gradient(orange,rgb(177, 94, 27),pink);
+    border-radius: 20px;
+    text-align: center;
+}
+#post1 a
+{
+    text-decoration: none;
+    color: white;
+    background: sienna;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#post1 p
+{
+    margin: 20px;
+}
+#post1 a:hover
+{
+    border: 1px solid white;
+    background: rgb(80, 68, 80);
+}
+#main1 h1
+{
+    color: violet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text-box
+{
+    width: 400px;
+    height:200px;
+}
+form
+{
+    font-size: 1rem;
+}
+fieldset
+{
+    padding-left: 10px;
+}
+#button
+{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(43, 198, 226);
+    border-radius: 20px;
+
+}
+#button:hover
+{
+    border: 1px solid white;
+    background-color: blueviolet;
+}
